@@ -4,4 +4,8 @@ CNN_model.model filter=lfs diff=lfs merge=lfs -text
 Colab_VGG.model filter=lfs diff=lfs merge=lfs -text
 test filter=lfs diff=lfs merge=lfs -text
 train filter=lfs diff=lfs merge=lfs -text
+CNN_model.model/** filter=lfs diff=lfs merge=lfs -text
+Coalb_VGG.model/** filter=lfs diff=lfs merge=lfs -text
+train/** filter=lfs diff=lfs merge=lfs -text
+test/** filter=lfs diff=lfs merge=lfs -text
 CNN_model.model/variables/variables.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text
